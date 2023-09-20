@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python1-monorepo-sample
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/brianwcook-tenant/monorepo-sample/python1-monorepo-sample@sha256:baea2c199a0396452055ac23f19f3b3b98542a3af55502a3650d931c1e1e77eb
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/monorepo-sample/python1-monorepo-sample@sha256:9431840ddb6fc6839ede25db6315034ab54fa1ff749fbdcc17dca730da4cf162
         name: my-python
         ports:
         - containerPort: 8081
