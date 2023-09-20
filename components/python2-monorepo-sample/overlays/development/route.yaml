@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: python2-monorepo-sample
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: python2-monorepo-sample
+    app.kubernetes.io/part-of: monorepo-sample
+  name: python2-monorepo-sampleyvea
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: python2-monorepo-sample
+    weight: null
+status: {}
