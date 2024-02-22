@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python1-monorepo-sample
     app.kubernetes.io/part-of: monorepo-sample
-  name: python1-monorepo-samplebt1g
+  name: python1-monorepo-samplenaiu
 spec:
   path: /
   port:
