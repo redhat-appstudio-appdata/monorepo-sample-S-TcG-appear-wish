@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/brianwcook-tenant/monorepo-sample/python2-monorepo-sample@sha256:4f1d98225000459355be430c0e3f45c1dcd2ad06036d066a153ffea7612eee63
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/monorepo-sample/python2-monorepo-sample@sha256:b69c6799a1e64af94e0d2c5c9a86683abba2a61e3962a3bdd3477871b1cf7d22
         name: my-python
         resources: {}
 status: {}
